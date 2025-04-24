@@ -1,0 +1,91 @@
+/* General Body Style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  /* Headings */
+  #main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    color: #34495e;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Card Container Layout */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  /* Testimonial Card */
+  .card.testimonial {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-style: italic;
+  }
+  
+  .quote {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .author {
+    text-align: right;
+    font-weight: bold;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Product Card */
+  .card.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .card.product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .product-title {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  
+  .product-description {
+    font-size: 0.95rem;
+    color: #777;
+  }
+  
+  .price {
+    font-size: 1.1rem;
+    color: #27ae60;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
